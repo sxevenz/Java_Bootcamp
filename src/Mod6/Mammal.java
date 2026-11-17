@@ -1,0 +1,27 @@
+package Mod5;
+
+import javax.naming.Name;
+
+public class Mammal {
+    private Animal myAnimal;
+    private String name;
+
+    public Mammal(String name) {
+        this.name = name;
+    }
+    public void setAnimal(Animal animal) {
+        myAnimal = animal;
+    }
+    public void animalIsSleeping() {
+        System.out.println("Animal with name: " + name + " is ");
+        // TODO: Write code so that Animal sleep implementation is used
+        myAnimal.animalisSleeping();
+    }
+
+    public void animalIsSpeaking() {
+        System.out.println("Animal with name: " + name + " is ");
+        // TODO: Write code so that Animal animalSound implementation is used
+        myAnimal.animalisSpeaking();
+    }
+}
+
