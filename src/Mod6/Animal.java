@@ -1,4 +1,4 @@
-package Mod5;
+package Mod6;
 
 public interface Animal {
     public void animalisSleeping();

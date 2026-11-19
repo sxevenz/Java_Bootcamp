@@ -1,4 +1,4 @@
-package Mod5.Activity1;
+package Mod5;
 
 public class InheritanceActivity {
 
@@ -51,7 +51,7 @@ public class InheritanceActivity {
 
         System.out.println("Person's Age is     : " + myPerson.getAge());
 
-        
+
 
     }
 

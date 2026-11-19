@@ -1,6 +1,4 @@
-package Mod5;
-
-import javax.naming.Name;
+package Mod6;
 
 public class Mammal {
     private Animal myAnimal;

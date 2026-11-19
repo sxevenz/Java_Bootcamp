@@ -1,4 +1,4 @@
-package Mod5.Activity1;
+package Mod5;
 
     public class Person_I {
 

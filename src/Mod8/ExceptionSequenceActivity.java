@@ -1,4 +1,4 @@
-package Mod7;
+package Mod8;
 
 // Needs to be completed
 // 1 - Find out the error in this program and share your finding with the instructor

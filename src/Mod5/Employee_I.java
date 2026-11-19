@@ -1,4 +1,4 @@
-package Mod5.Activity1;
+package Mod5;
 
 public class Employee_I extends Person_I {
     // Attributes

@@ -1,4 +1,4 @@
-package Mod5;
+package Mod6;
 
 public class AnimalActivity {
     public static void main(String arg[]) {
@@ -7,7 +7,7 @@ public class AnimalActivity {
         Animal cat = new Cat();
         // TODO: Create Dog using interface Animal
         Animal dog = new Dog();
-
+        Animal cow = new Cow();
         Mammal mammal = new Mammal("Flexy");
 
         // TODO: For mammal set animal to cat
@@ -21,6 +21,9 @@ public class AnimalActivity {
         // TODO: Execute for mammal animalIsSleeping()
         mammal.animalIsSleeping();
         // TODO: Execute for mammal animalIsSpeaking()
+        mammal.animalIsSpeaking();
+        mammal.setAnimal(cow);
+        mammal.animalIsSleeping();
         mammal.animalIsSpeaking();
     }
 }
