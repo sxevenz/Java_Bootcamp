@@ -14,7 +14,7 @@ public class ElectronicItemDetails {
     }
 
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         HashMap<String, Double> itemHashMap = new HashMap<>();
         itemHashMap.put("TV", 25.0);
         itemHashMap.put("Refrigerator", 35.0);
