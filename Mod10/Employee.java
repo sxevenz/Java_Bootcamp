@@ -21,7 +21,7 @@ public class Employee extends Person {
         super(name,age);
         this.jobTitle = jobTitle;
         this.company = company;
-        this.salary = salary;
+        setSalary(salary);
     }
     //setters
     public void setCompany(String company) {
@@ -31,7 +31,7 @@ public class Employee extends Person {
         this.jobTitle = jobTitle;
     }
     public void setSalary(double salary) {
-        if (salary > 0) {
+        if (salary >= 0) {
             this.salary = salary;
         }else {
             throw new IllegalArgumentException("Salary cannot be negative");
