@@ -54,7 +54,7 @@ public class Employee extends Person {
         super.introduce();
         System.out.println("I work as " + jobTitle + " in " + company + " and my salary is " + salary);
     }
-    public static void main() {
+    public static void main(String[] args) {
         Employee e = new Employee("Josh", 25,"Manager", "Accenture", 2000);
         e.introduce();
     }
